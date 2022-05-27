@@ -9,3 +9,19 @@
 
 
 /* Mobile responsive */
+
+@media screen and (max-width: 481px) {
+
+    section .container,
+    .lessons .col,
+    .steps .col,
+    .why-us .col-left,
+    .why-us .col-right {
+        width: 100%;
+    }
+
+    .container .row {
+        flex-direction: column;
+        align-items: center;
+    }
+}
