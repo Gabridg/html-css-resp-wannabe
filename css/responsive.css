@@ -1,0 +1,7 @@
+/* Tablet responsive */
+
+@media screen and (max-width: 769px) {
+    section .container {
+        width: 100%;
+    }
+}
